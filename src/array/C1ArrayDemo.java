@@ -10,6 +10,7 @@ public class C1ArrayDemo {
         String name2 = "Mihrican";
         String name3 = "kqBud";
         String name4 = "Ruken";
+        String name5 = "AHMET";
 
         String names[];
          names = new String[50];
@@ -23,6 +24,7 @@ public class C1ArrayDemo {
         System.out.println(names[5]);
         names[5] = "Volkan";
         System.out.println(names[5]);
+        
 
 
 
