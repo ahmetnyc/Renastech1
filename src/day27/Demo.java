@@ -19,6 +19,6 @@ class A{
 
 class B extends A{
     void show(){
-        System.out.println("Hi");
+        System.out.println("Hi + Hello");
     }
 }
