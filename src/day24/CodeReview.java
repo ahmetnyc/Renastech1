@@ -7,6 +7,6 @@ public class CodeReview {
 }
 class Apple{
     {
-        System.out.println("hi");
+        System.out.println("hello");
     }
 }
