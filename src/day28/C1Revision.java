@@ -27,7 +27,6 @@ public class C1Revision {
         //present in the reference type
         fd.bungeeJump();
     }
-
 }
 
 //abstract class can contain both abstract and non-abstract methods
