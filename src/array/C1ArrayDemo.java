@@ -23,7 +23,7 @@ public class C1ArrayDemo {
         System.out.println(names[2]);
         System.out.println(names[5]);
         names[5] = "Volkan";
-        System.out.println(names[51]);
+        System.out.println(names[52]);
 
     }
 }
