@@ -1,24 +1,24 @@
 package homework;
-
 public class Reverse {
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
-        String str = "reverse";
-        System.out.println(reverse(str));
+        String s = "Ahmet";
+        String reverse = "";
+        char ch[]= s.toCharArray();
+        for(int i =s.length()-1; i>=0; i--){
+            reverse += ch[i];
+        }
+        System.out.println(reverse);
+
+        if(s.equalsIgnoreCase(reverse)){
+            System.out.println("String is polindrome");
+
+        }else{
+            System.out.println("String is not polindrome");
+        }
+        System.out.println("    ");
+
     }
 
-    public static String reverse(String in) {
-        if (in == null)
-            throw new IllegalArgumentException("Null is not valid input");
-
-        StringBuilder out = new StringBuilder();
-
-        char[] chars = in.toCharArray();
-
-        for (int i = chars.length - 1; i >= 0; i--)
-            out.append(chars[i]);
-
-        return out.toString();
-
-    }
 }
+
